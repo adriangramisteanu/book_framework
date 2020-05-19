@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="983cdc94-bd90-41d8-968e-d9ffe572eb8f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1c7NAjY71SDc9zXJhm9F3KtPrKL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="adrian" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestCaseClass.returnTicket" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adrian.testPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adrian.testPackage" />
+      <option name="MAIN_CLASS_NAME" value="adrian.testPackage.TestCaseClass" />
+      <option name="METHOD_NAME" value="returnTicket" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestCaseClass.returnTicket" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="983cdc94-bd90-41d8-968e-d9ffe572eb8f" name="Default Changelist" comment="" />
+      <created>1589875529867</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589875529867</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="798" y="416" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589875813769">
+      <screen x="0" y="23" width="2048" height="1053" />
+    </state>
+    <state x="798" y="416" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589875813769" />
+    <state width="2006" height="288" key="GridCell.Tab.0.bottom" timestamp="1589878152750">
+      <screen x="0" y="23" width="2048" height="1053" />
+    </state>
+    <state width="2006" height="288" key="GridCell.Tab.0.bottom/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589878152750" />
+    <state width="2006" height="288" key="GridCell.Tab.0.center" timestamp="1589878152749">
+      <screen x="0" y="23" width="2048" height="1053" />
+    </state>
+    <state width="2006" height="288" key="GridCell.Tab.0.center/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589878152749" />
+    <state width="2006" height="288" key="GridCell.Tab.0.left" timestamp="1589878152749">
+      <screen x="0" y="23" width="2048" height="1053" />
+    </state>
+    <state width="2006" height="288" key="GridCell.Tab.0.left/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589878152749" />
+    <state width="2006" height="288" key="GridCell.Tab.0.right" timestamp="1589878152750">
+      <screen x="0" y="23" width="2048" height="1053" />
+    </state>
+    <state width="2006" height="288" key="GridCell.Tab.0.right/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589878152750" />
+    <state x="533" y="188" key="SettingsEditor" timestamp="1589877848465">
+      <screen x="0" y="23" width="2048" height="1053" />
+    </state>
+    <state x="533" y="188" key="SettingsEditor/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589877848465" />
+    <state x="703" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1589875536683">
+      <screen x="0" y="23" width="2048" height="1053" />
+    </state>
+    <state x="703" y="382" key="com.intellij.ide.util.TipDialog/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589875536683" />
+  </component>
+</project>
