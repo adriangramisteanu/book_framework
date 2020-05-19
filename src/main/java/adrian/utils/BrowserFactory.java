@@ -1,4 +1,4 @@
-package adrian;
+package adrian.utils;
 
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
