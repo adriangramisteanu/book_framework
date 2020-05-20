@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="983cdc94-bd90-41d8-968e-d9ffe572eb8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/adrian/pages/LogInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adrian/pages/NotificationMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adrian/utils/DriverManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adrian/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adrian/utils/BrowserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adrian/CaptureScreenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adrian/utils/CaptureScreenShot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adrian/helpers/HelperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adrian/helpers/HelperClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adrian/testPackage/TestCaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adrian/testPackage/TestCaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adrian/BrowserFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adrian/CaptureScreenShot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adrian/pages/HeaderMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adrian/pages/HeaderMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adrian/pages/PageObjectBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adrian/pages/PageObjectBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/adrian/helpers/HelperClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/adrian/helpers/HelperClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/adrian/testPackage/TestCaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/adrian/testPackage/TestCaseClass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,34 +145,34 @@
       <screen x="0" y="23" width="2048" height="1057" />
     </state>
     <state x="762" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1280.151.1280.1001/0.23.2048.1057@0.23.2048.1057" timestamp="1589890433957" />
-    <state width="2006" height="288" key="GridCell.Tab.0.bottom" timestamp="1589891471421">
+    <state width="2006" height="288" key="GridCell.Tab.0.bottom" timestamp="1589898179585">
       <screen x="0" y="23" width="2048" height="1053" />
     </state>
-    <state width="2006" height="288" key="GridCell.Tab.0.bottom/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589891471421" />
+    <state width="2006" height="288" key="GridCell.Tab.0.bottom/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589898179585" />
     <state width="2006" height="288" key="GridCell.Tab.0.bottom/-1280.151.1280.1001/0.23.2048.1054@0.23.2048.1054" timestamp="1589890373050" />
     <state width="2006" height="288" key="GridCell.Tab.0.bottom/-1280.151.1280.1001/0.23.2048.1056@0.23.2048.1056" timestamp="1589890395036" />
     <state width="2006" height="288" key="GridCell.Tab.0.bottom/-1280.151.1280.1001/0.23.2048.1057@0.23.2048.1057" timestamp="1589890706838" />
     <state width="2006" height="288" key="GridCell.Tab.0.bottom/-1280.151.1280.1001/0.23.2048.1059@0.23.2048.1059" timestamp="1589890783357" />
-    <state width="2006" height="288" key="GridCell.Tab.0.center" timestamp="1589891471421">
+    <state width="2006" height="288" key="GridCell.Tab.0.center" timestamp="1589898179584">
       <screen x="0" y="23" width="2048" height="1053" />
     </state>
-    <state width="2006" height="288" key="GridCell.Tab.0.center/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589891471421" />
+    <state width="2006" height="288" key="GridCell.Tab.0.center/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589898179584" />
     <state width="2006" height="288" key="GridCell.Tab.0.center/-1280.151.1280.1001/0.23.2048.1054@0.23.2048.1054" timestamp="1589890373049" />
     <state width="2006" height="288" key="GridCell.Tab.0.center/-1280.151.1280.1001/0.23.2048.1056@0.23.2048.1056" timestamp="1589890395035" />
     <state width="2006" height="288" key="GridCell.Tab.0.center/-1280.151.1280.1001/0.23.2048.1057@0.23.2048.1057" timestamp="1589890706837" />
     <state width="2006" height="288" key="GridCell.Tab.0.center/-1280.151.1280.1001/0.23.2048.1059@0.23.2048.1059" timestamp="1589890783357" />
-    <state width="2006" height="288" key="GridCell.Tab.0.left" timestamp="1589891471420">
+    <state width="2006" height="288" key="GridCell.Tab.0.left" timestamp="1589898179584">
       <screen x="0" y="23" width="2048" height="1053" />
     </state>
-    <state width="2006" height="288" key="GridCell.Tab.0.left/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589891471420" />
+    <state width="2006" height="288" key="GridCell.Tab.0.left/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589898179584" />
     <state width="2006" height="288" key="GridCell.Tab.0.left/-1280.151.1280.1001/0.23.2048.1054@0.23.2048.1054" timestamp="1589890373049" />
     <state width="2006" height="288" key="GridCell.Tab.0.left/-1280.151.1280.1001/0.23.2048.1056@0.23.2048.1056" timestamp="1589890395035" />
     <state width="2006" height="288" key="GridCell.Tab.0.left/-1280.151.1280.1001/0.23.2048.1057@0.23.2048.1057" timestamp="1589890706837" />
     <state width="2006" height="288" key="GridCell.Tab.0.left/-1280.151.1280.1001/0.23.2048.1059@0.23.2048.1059" timestamp="1589890783357" />
-    <state width="2006" height="288" key="GridCell.Tab.0.right" timestamp="1589891471421">
+    <state width="2006" height="288" key="GridCell.Tab.0.right" timestamp="1589898179585">
       <screen x="0" y="23" width="2048" height="1053" />
     </state>
-    <state width="2006" height="288" key="GridCell.Tab.0.right/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589891471421" />
+    <state width="2006" height="288" key="GridCell.Tab.0.right/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589898179585" />
     <state width="2006" height="288" key="GridCell.Tab.0.right/-1280.151.1280.1001/0.23.2048.1054@0.23.2048.1054" timestamp="1589890373049" />
     <state width="2006" height="288" key="GridCell.Tab.0.right/-1280.151.1280.1001/0.23.2048.1056@0.23.2048.1056" timestamp="1589890395035" />
     <state width="2006" height="288" key="GridCell.Tab.0.right/-1280.151.1280.1001/0.23.2048.1057@0.23.2048.1057" timestamp="1589890706837" />
