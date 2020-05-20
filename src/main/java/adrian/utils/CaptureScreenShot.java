@@ -1,8 +1,4 @@
-package adrian;
-
-import java.io.File;
-import java.io.IOException;
-import java.util.Date;
+package adrian.utils;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -10,30 +6,36 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.Date;
+
 public class CaptureScreenShot {
 
-    public CaptureScreenShot(){
+    public CaptureScreenShot() {
 
     }
 
     public static void getScreenShot(WebDriver driver, String filepath) {
         try {
             System.out.println("In getScreenShot method");
-            TakesScreenshot ts = (TakesScreenshot)driver;
+            TakesScreenshot ts = (TakesScreenshot) driver;
             System.out.println("before getScreenshotAs");
             File source = ts.getScreenshotAs(OutputType.FILE);
             System.out.println("After getScreenshotAs");
             FileUtils.copyFile(source, new File(filepath));
-        } catch (WebDriverException e) {
+        }
+        catch (WebDriverException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }
 
-    public static String getDateTimeStamp(){
+    public static String getDateTimeStamp() {
         Date oDate;
         String[] sDatePart;
         String sDateStamp;
@@ -43,9 +45,10 @@ public class CaptureScreenShot {
         sDateStamp = sDatePart[5] + "_" +
                 sDatePart[1] + "_" +
                 sDatePart[2] + "_" +
-                sDatePart[3] ;
+                sDatePart[3];
         sDateStamp = sDateStamp.replace(":", "_");
         System.out.println(sDateStamp);
-        return sDateStamp;}
+        return sDateStamp;
+    }
 
 }

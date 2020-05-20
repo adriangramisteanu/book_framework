@@ -11,14 +11,22 @@ import org.testng.annotations.BeforeSuite;
 
 import java.io.IOException;
 
-import adrian.BrowserFactory;
+import adrian.utils.BrowserFactory;
 
 public class HelperClass {
-
-    public static WebDriver driver;
+    public static WebDriver              driver;
+    private final ThreadLocal<WebDriver> threadLocalDriver = new ThreadLocal();
     BrowserFactory obj1;
 
     public HelperClass() {
+    }
+
+    public WebDriver getDriver() {
+        if (this.threadLocalDriver.get() == null) {
+            //LogUtils.errorForThrow(LOG, new NullPointerException("WebDriver is null in the variable threadLocalDriver"));
+        }
+
+        return (WebDriver) this.threadLocalDriver.get();
     }
 
     @BeforeSuite
@@ -51,6 +59,6 @@ public class HelperClass {
     @AfterSuite
     public void afterSuite() throws IOException, EmailException {
 
-        //driver.quit();
+        driver.quit();
     }
 }
