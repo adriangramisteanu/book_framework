@@ -1,4 +1,4 @@
-package adrian.helpers;
+package adrian.backend;
 
 import org.apache.commons.mail.EmailException;
 import org.openqa.selenium.WebDriver;
@@ -36,12 +36,12 @@ public class HelperClass {
 
     @BeforeClass
     public void beforeClass() {
-        System.out.println("in @BeforeClass");
+        //System.out.println("in @BeforeClass");
     }
 
     @BeforeMethod
     public void beforeMethodClass() {
-        System.out.println("in @BeforeMethod");
+        //System.out.println("in @BeforeMethod");
         HelperClass.driver = BrowserFactory.getDriver();
 
     }

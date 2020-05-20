@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="983cdc94-bd90-41d8-968e-d9ffe572eb8f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/adrian/constants/SystemProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adrian/pages/RegisterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adrian/utils/WaitUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adrian/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adrian/pages/LogInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/adrian/helpers/HelperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adrian/backend/HelperClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/adrian/testPackage/TestCaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adrian/testPackage/TestCaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adrian/pages/LogInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adrian/pages/LogInPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/adrian/helpers/HelperClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/adrian/testPackage/TestCaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/adrian/testPackage/TestCaseClass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -48,7 +58,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestCaseClass.loginWithInvalidUser">
+  <component name="RunManager" selected="TestNG.TestCaseClass.registerWithValidData">
     <configuration name="TestCaseClass.blabla" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationFramework" />
       <extension name="coverage">
@@ -85,6 +95,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCaseClass.registerWithValidData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adrian.testPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adrian.testPackage" />
+      <option name="MAIN_CLASS_NAME" value="adrian.testPackage.TestCaseClass" />
+      <option name="METHOD_NAME" value="registerWithValidData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCaseClass.returnTicket" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationFramework" />
       <extension name="coverage">
@@ -105,6 +133,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestCaseClass.registerWithValidData" />
         <item itemvalue="TestNG.TestCaseClass.loginWithInvalidUser" />
         <item itemvalue="TestNG.TestCaseClass.returnTicket" />
         <item itemvalue="TestNG.TestCaseClass.blabla" />
@@ -137,6 +166,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="837" y="272" key="#com.intellij.ide.util.MemberChooser" timestamp="1589969518170">
+      <screen x="0" y="23" width="2048" height="1053" />
+    </state>
+    <state x="837" y="272" key="#com.intellij.ide.util.MemberChooser/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589969518170" />
     <state x="798" y="416" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589875813769">
       <screen x="0" y="23" width="2048" height="1053" />
     </state>
@@ -145,34 +178,34 @@
       <screen x="0" y="23" width="2048" height="1057" />
     </state>
     <state x="762" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1280.151.1280.1001/0.23.2048.1057@0.23.2048.1057" timestamp="1589890433957" />
-    <state width="2006" height="288" key="GridCell.Tab.0.bottom" timestamp="1589898179585">
+    <state width="2006" height="288" key="GridCell.Tab.0.bottom" timestamp="1589977292062">
       <screen x="0" y="23" width="2048" height="1053" />
     </state>
-    <state width="2006" height="288" key="GridCell.Tab.0.bottom/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589898179585" />
+    <state width="2006" height="288" key="GridCell.Tab.0.bottom/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589977292062" />
     <state width="2006" height="288" key="GridCell.Tab.0.bottom/-1280.151.1280.1001/0.23.2048.1054@0.23.2048.1054" timestamp="1589890373050" />
     <state width="2006" height="288" key="GridCell.Tab.0.bottom/-1280.151.1280.1001/0.23.2048.1056@0.23.2048.1056" timestamp="1589890395036" />
     <state width="2006" height="288" key="GridCell.Tab.0.bottom/-1280.151.1280.1001/0.23.2048.1057@0.23.2048.1057" timestamp="1589890706838" />
     <state width="2006" height="288" key="GridCell.Tab.0.bottom/-1280.151.1280.1001/0.23.2048.1059@0.23.2048.1059" timestamp="1589890783357" />
-    <state width="2006" height="288" key="GridCell.Tab.0.center" timestamp="1589898179584">
+    <state width="2006" height="288" key="GridCell.Tab.0.center" timestamp="1589977292062">
       <screen x="0" y="23" width="2048" height="1053" />
     </state>
-    <state width="2006" height="288" key="GridCell.Tab.0.center/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589898179584" />
+    <state width="2006" height="288" key="GridCell.Tab.0.center/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589977292062" />
     <state width="2006" height="288" key="GridCell.Tab.0.center/-1280.151.1280.1001/0.23.2048.1054@0.23.2048.1054" timestamp="1589890373049" />
     <state width="2006" height="288" key="GridCell.Tab.0.center/-1280.151.1280.1001/0.23.2048.1056@0.23.2048.1056" timestamp="1589890395035" />
     <state width="2006" height="288" key="GridCell.Tab.0.center/-1280.151.1280.1001/0.23.2048.1057@0.23.2048.1057" timestamp="1589890706837" />
     <state width="2006" height="288" key="GridCell.Tab.0.center/-1280.151.1280.1001/0.23.2048.1059@0.23.2048.1059" timestamp="1589890783357" />
-    <state width="2006" height="288" key="GridCell.Tab.0.left" timestamp="1589898179584">
+    <state width="2006" height="288" key="GridCell.Tab.0.left" timestamp="1589977292061">
       <screen x="0" y="23" width="2048" height="1053" />
     </state>
-    <state width="2006" height="288" key="GridCell.Tab.0.left/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589898179584" />
+    <state width="2006" height="288" key="GridCell.Tab.0.left/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589977292061" />
     <state width="2006" height="288" key="GridCell.Tab.0.left/-1280.151.1280.1001/0.23.2048.1054@0.23.2048.1054" timestamp="1589890373049" />
     <state width="2006" height="288" key="GridCell.Tab.0.left/-1280.151.1280.1001/0.23.2048.1056@0.23.2048.1056" timestamp="1589890395035" />
     <state width="2006" height="288" key="GridCell.Tab.0.left/-1280.151.1280.1001/0.23.2048.1057@0.23.2048.1057" timestamp="1589890706837" />
     <state width="2006" height="288" key="GridCell.Tab.0.left/-1280.151.1280.1001/0.23.2048.1059@0.23.2048.1059" timestamp="1589890783357" />
-    <state width="2006" height="288" key="GridCell.Tab.0.right" timestamp="1589898179585">
+    <state width="2006" height="288" key="GridCell.Tab.0.right" timestamp="1589977292062">
       <screen x="0" y="23" width="2048" height="1053" />
     </state>
-    <state width="2006" height="288" key="GridCell.Tab.0.right/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589898179585" />
+    <state width="2006" height="288" key="GridCell.Tab.0.right/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589977292062" />
     <state width="2006" height="288" key="GridCell.Tab.0.right/-1280.151.1280.1001/0.23.2048.1054@0.23.2048.1054" timestamp="1589890373049" />
     <state width="2006" height="288" key="GridCell.Tab.0.right/-1280.151.1280.1001/0.23.2048.1056@0.23.2048.1056" timestamp="1589890395035" />
     <state width="2006" height="288" key="GridCell.Tab.0.right/-1280.151.1280.1001/0.23.2048.1057@0.23.2048.1057" timestamp="1589890706837" />
@@ -181,9 +214,9 @@
       <screen x="0" y="23" width="2048" height="1053" />
     </state>
     <state x="533" y="188" key="SettingsEditor/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589877848465" />
-    <state x="703" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1589875536683">
+    <state x="703" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1589959607309">
       <screen x="0" y="23" width="2048" height="1053" />
     </state>
-    <state x="703" y="382" key="com.intellij.ide.util.TipDialog/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589875536683" />
+    <state x="703" y="382" key="com.intellij.ide.util.TipDialog/-1280.151.1280.1001/0.23.2048.1053@0.23.2048.1053" timestamp="1589959607309" />
   </component>
 </project>

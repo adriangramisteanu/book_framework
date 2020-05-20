@@ -1,8 +1,11 @@
 package adrian.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
+import adrian.utils.WaitUtils;
 
 public class LogInPage extends PageObjectBase {
 
@@ -22,6 +25,7 @@ public class LogInPage extends PageObjectBase {
 
     public LogInPage(WebDriver driver) {
         super(driver);
+        WaitUtils.waitForElementToBeDisplayed(By.xpath(LOGIN_TITLE_PAGE_XPATH), driver);
     }
 
     public void typeUserNameOrEmail(String email) {
