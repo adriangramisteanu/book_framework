@@ -3,10 +3,12 @@ package adrian.testPackage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import adrian.helpers.HelperClass;
+import adrian.backend.HelperClass;
+import adrian.constants.SystemProperties;
 import adrian.pages.HeaderMenu;
 import adrian.pages.LogInPage;
 import adrian.pages.NotificationMessages;
+import adrian.pages.RegisterPage;
 
 public class TestCaseClass extends HelperClass {
 
@@ -16,16 +18,30 @@ public class TestCaseClass extends HelperClass {
     @Test
     public void loginWithInvalidUser() {
 
-        driver.get("http://ec2-52-59-249-105.eu-central-1.compute.amazonaws.com/my-movies/");
+        driver.get(SystemProperties.HOME_PAGE);
         HeaderMenu menu = new HeaderMenu(driver);
         menu.clickOnLogin();
         LogInPage login = new LogInPage(driver);
-        login.typeUserNameOrEmail("Vasilica");
-        login.typePassword("Vasilica");
+        login.typeUserNameOrEmail(SystemProperties.WRONG_USERNAME);
+        login.typePassword(SystemProperties.WRONG_PASSWORD);
         login.clickLogin();
         NotificationMessages message = new NotificationMessages(driver);
         Assert.assertEquals(message.getNotificationMessage(),
-                            "Invalid username or password.",
+                            SystemProperties.ERROR_LOGIN_MESSAGE,
                             "Confirmation message is not displayed or incorrectly.");
+    }
+
+    @Test
+    public void registerWithValidData() throws InterruptedException {
+
+        driver.get(SystemProperties.HOME_PAGE);
+        HeaderMenu menu = new HeaderMenu(driver);
+        menu.clickOnRegister();
+        RegisterPage register = new RegisterPage(driver);
+        register.typeUserName("Andrei");
+        register.typePassword("testdata");
+        register.retypePassword("testdata");
+        Thread.sleep(10000);
+        register.clickRegister();
     }
 }
